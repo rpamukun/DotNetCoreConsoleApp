@@ -12,7 +12,7 @@ namespace DotNetCoreConsoleApp
             Console.WriteLine("Enter the range of number list \n");
             int i = Convert.ToInt32(Console.ReadLine());
             int[] numbers = new int[i];
-            Console.WriteLine("Enter the number list \n");
+            Console.WriteLine("Enter the number lst \n");
             for (int n = 0; n < i; n++)
             {
                 numbers[n] = Convert.ToInt32(Console.ReadLine());
